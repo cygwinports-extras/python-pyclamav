@@ -4,17 +4,17 @@ pyclamav is a module makes it possible to use the free libclamav virus
 scanning library from within Python.
 
 Runtime requirements:
-  cygwin-1.5.19-4
-  clamav-0.88.1-1
-  python-2.4.1-1
+  cygwin-1.5.24-2
+  libclamav2-0.90.1-1
+  python-2.4.3-1
 
 Build requirements:
-  cygwin-1.5.19-4
-  binutils-20050610-1
-  cygport-0.1.7-1
-  gcc-core-3.4.4-1
-  python-2.4.1-1
-  clamav-0.88.1-1
+(besides corresponding devel packages)
+  cygwin-1.5.24-2
+  binutils-20060817-1
+  cygport-0.2.11-1
+  gcc-core-3.4.4-3
+  python-2.4.3-1
 
 Canonical homepage:
   http://norman.free.fr/norman/python/pyclamav/
@@ -22,29 +22,32 @@ Canonical homepage:
 -------------------------------------------
 
 Build instructions:
-  unpack pyclamav-0.3.3-X-src.tar.bz2
+  unpack pyclamav-0.4.0-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./pyclamav-0.3.3-X.cygport all
+  cygport ./pyclamav-0.4.0-X.cygport all
 
 This will create:
-  /usr/src/pyclamav-0.3.3-X-src.tar.bz2
-  /usr/src/pyclamav-0.3.3-X.tar.bz2
+  /usr/src/pyclamav-0.4.0-X-src.tar.bz2
+  /usr/src/pyclamav-0.4.0-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
   /usr/lib/python2.4/site-packages/pyclamav.dll
-  /usr/share/doc/Cygwin/pyclamav-0.3.2.README
-  /usr/share/doc/pyclamav-0.3.2/CHANGELOG
-  /usr/share/doc/pyclamav-0.3.2/GPL.txt
-  /usr/share/doc/pyclamav-0.3.2/README.txt
+  /usr/share/doc/Cygwin/pyclamav-0.4.0.README
+  /usr/share/doc/pyclamav-0.4.0/CHANGELOG
+  /usr/share/doc/pyclamav-0.4.0/GPL.txt
+  /usr/share/doc/pyclamav-0.4.0/README.txt
 
 ------------------
 
 Port Notes:
+
+----- version 0.4.0-1 -----
+Version bump.
 
 ----- version 0.3.3-1 -----
 Version bump.
