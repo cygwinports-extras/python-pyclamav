@@ -1,20 +1,20 @@
-pyclamav
+python-clamav
 -------------------------------------------
 pyclamav is a module makes it possible to use the free libclamav virus 
 scanning library from within Python.
 
 Runtime requirements:
   cygwin-1.5.24-2
-  libclamav2-0.90.1-1
-  python-2.4.3-1
+  libclamav2-0.90.1-2
+  python-2.5.1-1
 
 Build requirements:
 (besides corresponding devel packages)
   cygwin-1.5.24-2
   binutils-20060817-1
-  cygport-0.2.11-1
+  cygport-0.3.1-1
   gcc-core-3.4.4-3
-  python-2.4.3-1
+  python-2.5.1-1
 
 Canonical homepage:
   http://norman.free.fr/norman/python/pyclamav/
@@ -22,29 +22,33 @@ Canonical homepage:
 -------------------------------------------
 
 Build instructions:
-  unpack pyclamav-0.4.0-X-src.tar.bz2
+  unpack python-clamav-0.4.0-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./pyclamav-0.4.0-X.cygport all
+  cygport ./python-clamav-0.4.0-X.cygport all
 
 This will create:
-  /usr/src/pyclamav-0.4.0-X-src.tar.bz2
-  /usr/src/pyclamav-0.4.0-X.tar.bz2
+  /usr/src/python-clamav-0.4.0-X-src.tar.bz2
+  /usr/src/python-clamav-0.4.0-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
-  /usr/lib/python2.4/site-packages/pyclamav.dll
-  /usr/share/doc/Cygwin/pyclamav-0.4.0.README
-  /usr/share/doc/pyclamav-0.4.0/CHANGELOG
-  /usr/share/doc/pyclamav-0.4.0/GPL.txt
-  /usr/share/doc/pyclamav-0.4.0/README.txt
+  /usr/lib/python2.5/site-packages/pyclamav-0.4.0-py2.5.egg-info
+  /usr/lib/python2.5/site-packages/pyclamav.dll
+  /usr/share/doc/Cygwin/python-clamav-0.4.0.README
+  /usr/share/doc/python-clamav-0.4.0/CHANGELOG
+  /usr/share/doc/python-clamav-0.4.0/GPL.txt
+  /usr/share/doc/python-clamav-0.4.0/README.txt
 
 ------------------
 
 Port Notes:
+
+----- version 0.4.0-2 -----
+Rebuilt for python-2.5.
 
 ----- version 0.4.0-1 -----
 Version bump.
