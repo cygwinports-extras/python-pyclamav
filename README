@@ -4,14 +4,14 @@ pyclamav is a module makes it possible to use the free libclamav virus
 scanning library from within Python.
 
 Runtime requirements:
-  cygwin-1.5.25-11
-  libclamav3-0.92.1-1
+  cygwin-1.5.25-15
+  libclamav4-0.93-1
   python-2.5.2-1
 
 Build requirements:
 (besides corresponding devel packages)
-  binutils-20060817-1
-  cygport-0.3.9-1
+  binutils-20080523-1
+  cygport-0.3.11-1
   gcc-core-3.4.4-3
 
 Canonical homepage:
@@ -43,6 +43,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 0.4.1-2 -----
+Rebuilt for clamav-0.93.
 
 ----- version 0.4.1-1 -----
 Version bump.
