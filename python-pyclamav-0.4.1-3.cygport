@@ -1,3 +1,4 @@
+ORIG_PN="pyclamav"
 inherit distutils
 
 DESCRIPTION="Python ClamAV bindings"

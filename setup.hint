@@ -1,5 +1,5 @@
 category: Python
-requires: cygwin libclamav4 python
+requires: cygwin libclamav5 python
 sdesc: "Python binding for ClamAV"
 ldesc: "pyclamav is a module makes it possible to use the free 
 libclamav virus scanning library from within Python."
